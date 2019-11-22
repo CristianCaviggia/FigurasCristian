@@ -8,6 +8,9 @@
           <Properties>
             <Property name="text" type="java.lang.String" value="Figuras"/>
           </Properties>
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="mnuFigurasActionPerformed"/>
+          </Events>
           <SubComponents>
             <MenuItem class="javax.swing.JMenuItem" name="mniCirculo">
               <Properties>
@@ -27,6 +30,9 @@
                 </Property>
                 <Property name="text" type="java.lang.String" value="Cuadrado"/>
               </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="mniCuadradoActionPerformed"/>
+              </Events>
             </MenuItem>
             <MenuItem class="javax.swing.JMenuItem" name="mniTriangulo">
               <Properties>
